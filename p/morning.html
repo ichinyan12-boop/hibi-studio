@@ -26,6 +26,9 @@ ol li::before{content:counter(n,decimal-leading-zero);position:absolute;left:0;t
  border-radius:999px;padding:14px 28px;text-decoration:none;color:#4a4741;
  font-family:system-ui,sans-serif;font-size:.95rem;letter-spacing:.06em}
 .note{color:var(--gray);font-size:.85rem;margin-top:40px}
+/* 無料サンプルの店は「好きな金額を入れて」と出るため、押す前に一言添える。
+   ピンの「free」の約束と画面が食い違って離脱していた疑いへの対策(2026-08-14) */
+.hint{color:var(--gray);font-size:.85rem;margin:10px 0 0;font-style:italic}
 .grid{list-style:none;padding:0;margin:24px 0 0}
 .grid li{padding:12px 0;border-bottom:1px solid var(--line)}
 .grid a{color:var(--sumi);text-decoration:none}
@@ -56,6 +59,8 @@ footer{margin-top:56px;color:var(--gray);font-size:.8rem;letter-spacing:.2em;
   <li>How do I want today to end?</li>
 </ol>
 <p><a class="cta" href="https://ichinyan.gumroad.com/l/ma-preview">Try 3 pages free &rarr;</a></p>
+<p class="hint">It is genuinely free — the shop asks you to name a price, so just
+leave it at 0 and click through.</p>
 <p class="note">These questions are part of <a href="https://ichinyan.gumroad.com/l/ma">MA — A Quiet Reset</a>,
 a 12-page printable reflection journal. Print it at home, or write in an app such as
 GoodNotes on iPad. A reflective journaling resource — not a traditional Japanese

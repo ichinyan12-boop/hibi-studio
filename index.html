@@ -26,6 +26,9 @@ ol li::before{content:counter(n,decimal-leading-zero);position:absolute;left:0;t
  border-radius:999px;padding:14px 28px;text-decoration:none;color:#4a4741;
  font-family:system-ui,sans-serif;font-size:.95rem;letter-spacing:.06em}
 .note{color:var(--gray);font-size:.85rem;margin-top:40px}
+/* 無料サンプルの店は「好きな金額を入れて」と出るため、押す前に一言添える。
+   ピンの「free」の約束と画面が食い違って離脱していた疑いへの対策(2026-08-14) */
+.hint{color:var(--gray);font-size:.85rem;margin:10px 0 0;font-style:italic}
 .grid{list-style:none;padding:0;margin:24px 0 0}
 .grid li{padding:12px 0;border-bottom:1px solid var(--line)}
 .grid a{color:var(--sumi);text-decoration:none}
